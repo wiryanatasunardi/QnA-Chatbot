@@ -102,16 +102,6 @@ LOCAL_VECTOR_STORE_DIR = (
     Path(__file__).resolve().parent.joinpath("data", "vector_stores")
 )
 
-favorite_features = """
-Users appreciate several features and aspects of the Spotify application, including:
-
-1. Custom-Made Playlists: Spotify offers personalized playlists based on users' listening history and preferences, making music discovery a delightful experience.
-2. Radio Stations from ANYTHING: Users can create radio stations from any song, artist, or genre, allowing for endless music exploration.
-3. User Experience and Design: Spotify's intuitive and user-friendly interface, along with its seamless navigation, provides an exceptional user experience.
-
-These features, along with Spotify's continuous innovation, make it a top choice for music enthusiasts.
-"""
-
 ####################################################################
 #            Create app interface with streamlit
 ####################################################################
